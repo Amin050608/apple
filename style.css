@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+header {
+  width: 1920px;
+  height: 44px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+/* 1st iphone page */
+.pro {
+  background-image: url(image/Background\ \(8\).png);
+  width: 1920px;
+  height: 692px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+h1 {
+  margin-top: 40px;
+}
+a {
+  display: flex;
+  gap: 10px;
+}
+
+.lm {
+  border-radius: 20px;
+  background-color: #0071e3;
+  padding: 13px;
+}
+.buy {
+  border-radius: 20px;
+  padding: 13px;
+  color: #0071e3;
+  border: solid 1px;
+}
+/* 2nd iphone page */
+.pro1 {
+  background-image: url(image/Background.png);
+  width: 1920px;
+  height: 692px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.lm1 {
+  background-color: aliceblue;
+  padding: 13px;
+  color: black;
+  padding: 13px;
+  border-radius: 20px;
+}
+.buy1 {
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 13px;
+}
+/* 3rd page */
+.apple {
+  background-image: url(image/Figure.png);
+  width: 1920px;
+  height: 692px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: end;
+}
+.apple button {
+  margin-bottom: 130px;
+  background-color: #0071e3;
+  color: aliceblue;
+  padding: 13px;
+  border-radius: 20px;
+}
+/* page4 */
+.pro2 {
+  width: 1920px;
+  height: 1764px;
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+}
